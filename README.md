@@ -1,2 +1,2 @@
-# Project-22
-Detecting collision between two sprites with circular colliders.
+# Project22
+ Collision algorithm between two sprites with circular colliders.
