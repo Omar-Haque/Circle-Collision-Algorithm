@@ -1,6 +1,4 @@
 var fixedCircle, movingCircle;
-//c is the radius 
-var c;
 function setup() {
 
   //Create a canvas
@@ -8,12 +6,9 @@ function setup() {
 
   //Create the fixedCircle
   fixedCircle = createSprite(600, 400, 65, 72);
-  fixedCircle.radius = c;
 
   //Create the movingCircle
   movingCircle = createSprite(900, 200, 65, 72);
-  movingCircle.radius = c;
-  getRadius(65, 72);
 }
 
 function draw() {
